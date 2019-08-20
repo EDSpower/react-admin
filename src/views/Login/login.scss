@@ -1,0 +1,26 @@
+.login-container{
+  width: 100%;
+  height: 100%;
+  background: url('/static/new_bg.png') no-repeat right;
+  position: relative;
+  .login-warp{
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    width: 350px;
+    margin: -190px 0 0 -175px;
+    padding: 0 30px;
+    border-radius: 5px;
+    background: rgba(38, 67, 75 , 0.1);
+    overflow: hidden;
+    .title{
+      >p{
+        line-height: 50px;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        border-bottom: 1px solid;
+      }
+    }
+  }
+}

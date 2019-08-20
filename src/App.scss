@@ -1,0 +1,24 @@
+@import '~antd/dist/antd.css';
+html , body , #root , .App {
+  margin: 0 ;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  .ant-layout{
+    height: 100%;
+  }
+  .ant-layout-sider{
+    background-color: #fff;
+  }
+}
+body , p , div , h1 , h2 , input , ul , li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.font-title{
+  font-size: 36px;
+  font-weight: 600;
+}

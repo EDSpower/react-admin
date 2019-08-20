@@ -1,0 +1,105 @@
+.core-container{
+  background-color: #f2f2f2;
+  height: 100%;
+  .top{
+    p.box-title{
+
+      padding-top: 20px;
+      padding-left: 28px;
+    }
+    ul{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 20px;
+      li{
+        width: 270px;
+        height: 130px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .li-left{
+          color: #fff;
+          >span{
+            font-size: 18px;
+          }
+          >p{
+            font-size: 28px;
+            font-weight: 600;
+          }
+        }
+        &:nth-child(1) {
+          background: linear-gradient(to right, #44ded6 , #12b1d1);
+        }
+        &:nth-child(2) {
+          background: linear-gradient(to right, #e05ec6 , #b86ffe);
+        }
+        &:nth-child(3) {
+          background: linear-gradient(to right, #f8cb89 , #f3725b);
+        }
+        &:nth-child(4) {
+          background: #fff;
+          .li-left{
+            >span{
+              font-size: 18px;
+              color: #b9b9b9;
+            }
+            >p{
+              font-size: 28px;
+              font-weight: 600;
+              color: #116df9;
+  
+            }
+          }
+
+        }
+        &:nth-child(5) {
+          background: #fff;
+          .li-left{
+            >span{
+              font-size: 18px;
+              color: #b9b9b9;
+            }
+            >p{
+              font-size: 28px;
+              font-weight: 600;
+              color: #116df9;
+  
+            }
+          }
+        }
+        >img{
+          width: 30px;
+          height: 36px;
+        }
+      }
+    }
+  }
+  .bottom{
+    .box-title{
+      padding: 28px;
+      display: flex;
+      align-items: center;
+      >.title{
+        display: block;
+        margin-right: 20px;
+      }
+    }
+    ul{
+      display: flex;
+      justify-content: space-around;
+      li{
+        width: 350px;
+        height: 360px;
+        background-color: #fff;
+        border-radius: 8px;
+        >p{
+          text-align: center;
+          padding-top: 10px;
+          font-size: 20px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
